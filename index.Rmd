@@ -1,0 +1,70 @@
+---
+title: "Minhas GitHub pages"
+author: "Lucas Moraes"
+date: "12/12/2020"
+output:
+  html_document:
+    df_print: paged
+    theme: paper
+    code_folding: hide
+    toc: true
+    toc_float:  
+      collapsed: false
+    toc_depth: 5
+    number_sections: true
+header-includes:
+      - \renewcommand{\contentsname}{Content}
+urlcolor: blue
+---
+
+<style>
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #3c434f;
+}
+body {
+font-family: Sans-serif;
+font-size: 10pt;
+text-align: justify}
+p.caption {
+  font-size: 0.85em;
+}
+h1 {
+text-align:left;
+}
+#TOC {
+  text-align: left;
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+Criei essa página para compilar e listar todos projetos em meu blog e kaggle. Aqui em minhas Github pages, os projetos encontram-se "na íntegra" com todos códigos utilizados, bem como todos gráficos. Algumas plataformas conflitam com gráficos mais complexos (planos tridimensionais por exemplo) e outras configurações, que não são afetadas aqui. 
+
+Em geral, as informações contidas nos projetos aqui estão em maior quantidade e menos sintetizadas.
+
+Abaixo a lista dos projetos contemplados aqui:
+
+1. [Análise de dados - Flora brasileira.](moraessaur.github.io/flora2020_analysis/)
+2. [Regressão Linear - Fish Market data.](moraessaur.github.io/fish_market/)
+3. [Análise de dados - Ramen Ratings](moraessaur.github.io/ramen_ratings)
+
+Todas essas análises encontram-se um pouco mais sintetizadas em [meu blog](https://www.lucasmoraes.blog/) e também em [kaggle](https://www.kaggle.com/moraessaur/), onde estão no formato de notebook, em inglês. Os referidos repositórios podem ser conferidos em meu [Github](https://github.com/moraessaur/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
